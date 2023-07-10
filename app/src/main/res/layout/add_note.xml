@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/titleEdtTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/enter_text_background"
+        android:ems="10"
+        android:hint="Enter Title"
+        android:inputType="textPersonName"
+        android:paddingStart="12dp"
+        android:paddingTop="16dp"
+        android:paddingEnd="12dp"
+        android:paddingBottom="16dp" />
+
+    <EditText
+        android:id="@+id/noteEdtTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/enter_text_background"
+        android:ems="10"
+        android:hint="Enter Note"
+        android:inputType="textPersonName"
+        android:paddingStart="12dp"
+        android:paddingTop="16dp"
+        android:paddingEnd="12dp"
+        android:paddingBottom="16dp" />
+
+    <TextView
+        android:id="@+id/AddNoteBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="128dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/add_btn_background"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        android:text="Add"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

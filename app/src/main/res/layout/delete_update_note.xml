@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/titleDeleteEdtTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="34dp"
+            android:layout_marginEnd="40dp"
+            android:background="@drawable/enter_text_background"
+            android:ems="10"
+            android:hint="Enter Title"
+            android:inputType="textPersonName"
+            android:paddingStart="12dp"
+            android:paddingTop="16dp"
+            android:paddingEnd="12dp"
+            android:paddingBottom="16dp" />
+
+        <EditText
+            android:id="@+id/noteDeleteEdtTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="40dp"
+            android:background="@drawable/enter_text_background"
+            android:ems="10"
+            android:hint="Enter Note"
+            android:inputType="textPersonName"
+            android:paddingStart="12dp"
+            android:paddingTop="16dp"
+            android:paddingEnd="12dp"
+            android:paddingBottom="16dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="24dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/deleteNoteBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="36dp"
+                android:layout_marginEnd="16dp"
+                android:layout_weight="1"
+                android:background="@drawable/add_btn_background"
+                android:gravity="center"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:text="Delete"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                tools:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/updateNoteBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="36dp"
+                android:layout_weight="1"
+                android:background="@drawable/add_btn_background"
+                android:gravity="center"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:text="Update"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                tools:textSize="24sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
